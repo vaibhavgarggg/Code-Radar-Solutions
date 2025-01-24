@@ -9,8 +9,6 @@ int main() {
     else if{
         printf("Uppercase");
     }
-    else{
-        printf("Not an alphabet");
-    }
+    
     return 0;
 }
