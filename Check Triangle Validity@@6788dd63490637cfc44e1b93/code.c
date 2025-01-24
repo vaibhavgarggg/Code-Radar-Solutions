@@ -6,7 +6,7 @@ int main() {
     int x = a+b;
     int y = b+c;
     int z = c+a;
-    if(x>c || y >a || z > b){
+    if(x>c && y >a && z > b){
         printf("Valid");
     }
     else{
