@@ -22,6 +22,8 @@ int main() {
         case '*':
             printf("%d",mult);
             break;
+        default:
+            printf("error");
     }
     return 0;
 }
