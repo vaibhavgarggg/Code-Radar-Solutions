@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-float main() {
+int main() {
     int a,b;
     char opt;
     scanf("%d %d",&a,&b);
