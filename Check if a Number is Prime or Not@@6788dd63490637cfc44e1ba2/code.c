@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    for(i == 2, i < n,i++){
+    for(i = 2, i < n,i++){
         if(n == 1 || n == 0){
             printf("Not Prime");
         }
@@ -13,6 +13,5 @@ int main() {
             printf("Not Prime");
         }
     }
-    printf("%s", welcome());
     return 0;
 }
