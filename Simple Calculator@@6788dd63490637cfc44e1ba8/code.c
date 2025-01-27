@@ -2,8 +2,7 @@
 int main() {
     int a,b;
     char opt;
-    scanf("%d %d",&a,&b);
-    scanf("%c",&opt);
+    scanf("%d %d %c",&a,&b,&opt);
     int add = a+b;
     int sub = a-b;
     int div = a/b;
