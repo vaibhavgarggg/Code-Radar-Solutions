@@ -8,7 +8,6 @@ int main() {
         product = n*i;
         printf("%d x %d = %d\n",n,i,product);
     }
-    printf("\n");
     
     return 0;
 }
