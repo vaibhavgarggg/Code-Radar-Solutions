@@ -6,7 +6,7 @@ int main() {
     int product = 0;
     for(int i = 1; i <=10; i++){
         product = n*i;
-        printf("2 x %d = %d",i,product);
+        printf("%d x %d = %d\n",n,i,product);
     }
     printf("\n");
     
