@@ -3,22 +3,18 @@ int main() {
     int a,b;
     char opt;
     scanf("%d %d %c",&a,&b,&opt);
-    int add = a+b;
-    int sub = a-b;
-    int div = a/b;
-    int mult = a*b;
     switch(opt){
         case '+':
-            printf("%d",add);
+            printf("%d", a+b);
             break;
         case '-':
-            printf("%d",sub);
+            printf("%d", a-b);
             break;
         case '/':
-            printf("%d",div);
+            printf("%d", a/b);
             break;
         case '*':
-            printf("%d",mult);
+            printf("%d", a*b);
             break;
         default:
             printf("error");
